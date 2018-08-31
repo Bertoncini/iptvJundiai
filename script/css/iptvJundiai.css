@@ -1,0 +1,207 @@
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  
+.img-responsive{display:block;height:150;max-width:100%}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+/* css furquim */
+
+/* tag */
+body{
+  background: #f5f5f5;
+}
+img{
+  vertical-align: middle;
+}
+/* class */
+.menu-navegacao {
+  font-family: 'Acme', sans-serif;
+  position: fixed;
+  width: 100vw;
+  height: 50px;
+  background-color: #3598dc;
+  z-index: 1;
+  border-bottom: solid 1px #0265a9;
+}
+.links-list{
+  margin-left: auto;
+  margin-right: auto;
+}
+.link-item{
+  height: 50px;
+  width: 25%;
+}
+.link-item:hover{
+  background-color: rgba(255,255,255,0.1)
+}
+.links{
+  margin-top: 5px;
+  text-align: center;
+  color: #f2f2f2;
+}
+.links:hover{
+  color: #ffffff;
+}
+.parallax{
+  background: url(../../img/home-theater.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100vw;
+  height: 70vh;
+  opacity: .8;
+}
+.pre-footer{
+  background: url(../../img/home-theater.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center botom;
+  width: 100vw;
+  height: 20vh;
+  opacity: .8;
+}
+.section-mid{
+  background: url(../../img/home-theater.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center botom;
+  width: 100vw;
+  padding-top: 10%;
+  opacity: .8;
+}
+.info-area{
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+.text-area{
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+.text-area p{
+  font-family: 'Questrial', sans-serif;
+  color: #404040;
+  font-size: 16px;
+}
+.text-area h2{
+  font-family: 'Acme', sans-serif;
+  padding-top: 75px;
+  color: #0265a9;
+}
+.text-area h3{
+  font-family: 'Acme', sans-serif;
+  color: #0265a9;
+}
+.text-area a{
+  font-family: 'Questrial', sans-serif;
+  color: #404040;
+  font-size: 16px;
+}
+.banner-title{
+  font-family: 'Questrial', sans-serif;
+  color: #404040;
+  font-size: 14px;
+}
+.banner-content{
+  font-family: 'Questrial',sans-serif;
+  color: #404040;
+  font-size: 12px;
+}
+.text-footer{
+  font-family: 'Questrial', sans-serif;
+  color: #404040;
+  font-size: 14px;
+}
+.tab-content{
+  padding: 1%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card{
+  height: 22rem;
+  width: auto;
+}
+.mobile-menu{
+  display: none;
+}
+.mobile-container{
+  display: none;
+}
+
+/* web kits */
+
+/* media */
+
+@media only screen and (max-width: 768px) {
+  .container{
+    display: block;
+  }
+  .row{
+    flex-direction: column;
+    display: flex;
+  }
+  .col-3{
+    width: 22rem;
+    max-width: 100%;
+    flex: 1;
+  }
+  .card{
+    height: 22rem;
+    width: 100%;
+    display: block;
+  }
+
+  .menu-navegacao{
+    display: none;
+  }
+  .mobile-menu{
+    background-color: #3598dc;
+    border: solid 1px #0265a9;
+    display: block;
+  }
+  .mobile-menu ul {
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    display: flex;
+  }
+  .mobile-menu li {
+    margin-top: 8px;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 5px;
+  }
+  .mobile-menu a{
+    display: block;
+    font-family: 'Questrial', sans-serif;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+  }
+  .mobile-container{
+    display: block;
+  }
+
+
+}
